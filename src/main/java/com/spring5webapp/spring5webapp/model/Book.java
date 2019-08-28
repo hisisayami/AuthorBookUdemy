@@ -14,7 +14,7 @@ public class Book {
 
     @Column (name = "Title", nullable = false, length = 100)
     private String title;
-    @Column (name = "isbn", nullable = false, length = 100)
+    @Column (name = "isbn", nullable = false, length = 100)///colum added
     private String isbn;
     @Column (name = "publisher", nullable = false, length = 100) //@column  addeddha
     private String publisher;
