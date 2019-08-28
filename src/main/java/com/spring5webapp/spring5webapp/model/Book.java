@@ -16,7 +16,7 @@ public class Book {
     private String title;
     @Column (name = "isbn", nullable = false, length = 100)
     private String isbn;
-    @Column (name = "publisher", nullable = false, length = 100)
+    @Column (name = "publisher", nullable = false, length = 100) //@column  added
     private String publisher;
 
     @ManyToMany
