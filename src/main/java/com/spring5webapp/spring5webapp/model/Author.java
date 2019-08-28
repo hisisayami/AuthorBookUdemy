@@ -12,10 +12,10 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    //@Column ( name = "FirstName", nullable = false, length = 100)
+    @Column ( name = "FirstName", nullable = false, length = 100)
     private String firstName;
 
-    //@Column (name = "LastName", nullable = false, length = 100)
+    @Column (name = "LastName", nullable = false, length = 100)
     private String lastName;
 
     @ManyToMany (mappedBy = "authorSet")
